@@ -1,0 +1,14 @@
+  body {
+    background: #242424;
+    background: linear-gradient(to right, #5f6975, #061118);
+  }
+
+  .card{
+    padding: 30px;
+    margin: 15px;
+  }
+  .nav-link:hover {
+    background-color: #5f6975;
+    padding: 5px;
+  
+  }

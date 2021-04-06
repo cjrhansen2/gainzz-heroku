@@ -1,0 +1,20 @@
+
+  
+  body {
+    background: #242424;
+    background: linear-gradient(to right, #5f6975, #061118);
+  }
+
+  .card{
+    margin: 15px;
+  }
+
+
+ 
+
+.nav-link:hover {
+  background-color: #5f6975;
+  border-radius: 5px;
+  
+}
+

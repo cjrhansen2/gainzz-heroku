@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+#root {
+  height: 100%;
+  flex-grow: 1;
+  
+}
+
+:root {
+  --input-padding-x: 1.5rem;
+  --input-padding-y: .75rem;
+  height: 100%;
+  flex-grow: 1;
+}
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  background: #5f6975;
+  flex-grow: 1;
+  height: 100%;
+  
+}
+
+.appDiv {
+  height: 100%;
+  flex-grow: 1;
+}
+
+.jumbotron{
+  border-radius: 15px;
+}
+
+.card-addexe {
+  border: 0;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+  height: auto;
+  width: 55vh;
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
+  margin-top: 6%;
+}
+
+.card-signin {
+  border: 0;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+  height: 35vh;
+}
+
+.card-signin .card-title {
+  margin-bottom: 2rem;
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+
+.card-signin .card-img-left {
+  width: 45%;
+  background-size: cover;
+}
+
+.card-signin .card-body {
+  padding: 2rem;
+}
+
+.form-signin {
+  width: 100%;
+}
+
+.form-signin .btn {
+  font-size: 80%;
+  border-radius: 5rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  padding: 1rem;
+
+}
+
+.form-label-group {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.form-label-group input {
+  height: auto;
+  border-radius: 2rem;
+}
+
+.form-label-group>input,
+.form-label-group>label {
+  padding: var(--input-padding-y) var(--input-padding-x);
+}
+
+.form-label-group>label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin-bottom: 0;
+  /* Override default `<label>` margin */
+  line-height: 1.5;
+  color: #495057;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+}
+
+.card-signup {
+  border: 0;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+  height: 55vh;
+}
+
+
+
+.card-signup .card-img-left {
+  width: 45%;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+
+.exercise {
+  height: auto;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 10px 10px 10px #333333;
+  
+  
+}
+
+.exercise .card-body{
+  border-radius: 5px;
+  border: none;
+}
+
+
+.add-exerciseBtn:hover{
+  transition: transform .2s;
+  transform: scale(1.03)
+}
+
+.add-exerciseBtn{
+  height: 70px;
+  border: 0;
+  
+}
+
+.add-exercise{
+  width: 500px;
+}
+
+.bro {
+  height: auto;
+}
+
+.details{
+  height: 100px;
+}
+
+
+
+.button-box {
+  text-align:center;
+  margin-top:20px;
+}
+
+.add-details{
+  border-radius: 15px;
+  width: 350px;
+  height: 320px;
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 10px; /* Added */
+}
+
+.bro-card{
+  margin: 2px;
+
+}
+
+.deleteXbtn{
+  margin-top: 25px;
+}
+
+.deleteXbtn:hover{
+  transition: transform .2s;
+  transform: scale(1.1);
+  
+}
+
+.exercise:hover{
+  transition: transform .2s;
+  transform: scale(1.05);
+  
+}
+
+tr:first-child {
+  color: #ffc107!important
+}
+
+
+tr{
+  font-size: 28px;
+}
