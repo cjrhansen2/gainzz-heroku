@@ -55,7 +55,7 @@ function SignUpCard(props) {
                         </div>
                         <div className="card-body" >
 
-                        <img className="mx-auto d-block img-fluid" src={`${process.env.PUBLIC_URL}/headers/suHeader.png`} style={{marginBottom: '10%'}} alt="sign up header" />
+                        <img className="mx-auto d-block img-fluid" src={`${process.env.PUBLIC_URL}/headers/suHeader.PNG`} style={{marginBottom: '10%'}} alt="sign up header" />
                         <form className="form-signin">
                             <div className="form-label-group">
                             <input type="text" ref={usernameRef} id="inputUserame" className="form-control" placeholder="Username" required autoFocus/>
