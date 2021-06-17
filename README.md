@@ -10,6 +10,24 @@ Sign Up Page
 
 ![](GainzzSignup.png)
 
+Home Page
+
+![](GainzzHome.png)
+
+Muscle Groups Page
+
+![](GainzzMuscles.png)
+
+Add Exercise Page
+
+![](GainzzAddEx.png)
+
+List of Exercises
+
+![](GainzzExList.png)
+
+
+
 ## Installation
 
 The app is hosted on Heroku at this link: https://nameless-cliffs-75808.herokuapp.com/
